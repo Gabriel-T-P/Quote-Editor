@@ -4,17 +4,17 @@ Este projeto é uma aplicação Ruby on Rails 7 que implementa um **editor de co
 
 ## Sobre o Tutorial
 
-O tutorial **Turbo Rails** ensina como usar o `turbo-rails` (biblioteca incluída por padrão no Rails 7) para criar aplicações de página única (SPA-like), com pouca ou nenhuma necessidade de JavaScript personalizado :contentReference[oaicite:0]{index=0}.
+O tutorial **Turbo Rails** ensina como usar o `turbo-rails` (biblioteca incluída por padrão no Rails 7) para criar aplicações de página única (SPA-like), com pouca ou nenhuma necessidade de JavaScript personalizado.
 
-Implementando:
+O que é implementado:
 
-- Um controlador CRUD simples para o modelo `Quote` :contentReference[oaicite:1]{index=1}
-- Organização de CSS com metodologia BEM :contentReference[oaicite:2]{index=2}
-- **Turbo Drive** — acelera navegação interceptando cliques e submissões de formulários e transformando-os em requisições AJAX :contentReference[oaicite:3]{index=3}
-- **Turbo Frames** e **Turbo Streams** — para fragmentar páginas em componentes independentes e fornecer atualizações em tempo real com Action Cable :contentReference[oaicite:4]{index=4}
-- Flash messages animadas com Stimulus :contentReference[oaicite:5]{index=5}
-- Tratamento de estados vazios e mensagens de interface com Turbo :contentReference[oaicite:6]{index=6}
-- Funcionalidade de cálculo dinâmico do total da cotação quando itens são adicionados, atualizados ou removidos :contentReference[oaicite:7]{index=7}
+- Um controlador CRUD simples para o modelo `Quote`
+- Organização de CSS com metodologia BEM
+- **Turbo Drive** — acelera navegação interceptando cliques e submissões de formulários e transformando-os em requisições AJAX
+- **Turbo Frames** e **Turbo Streams** — para fragmentar páginas em componentes independentes e fornecer atualizações em tempo real com Action Cable
+- Flash messages animadas com Stimulus
+- Tratamento de estados vazios e mensagens de interface com Turbo
+- Funcionalidade de cálculo dinâmico do total da cotação quando itens são adicionados, atualizados ou removidos
 
 ## Objetivo do Projeto
 
@@ -31,20 +31,19 @@ Este projeto replica o tutorial **Turbo Rails** do Hotrails, implementando um ed
     ```ruby
     gem "turbo-rails", "~> 1.0"
     ```
-   :contentReference[oaicite:8]{index=8}
 3. Execute:
     ```bash
     bundle install
     bin/setup
     bin/dev
     ```
-   Isso vai instalar dependências, criar o banco de dados, executar migrações e iniciar o servidor com compilação automática de assets :contentReference[oaicite:9]{index=9}.
+   Isso vai instalar dependências, criar o banco de dados, executar migrações e iniciar o servidor com compilação automática de assets.
 4. Acesse `http://localhost:3000` e explore o editor de cotações.
 
 ---
 
 ## Referência
 
-Baseado no **Turbo Rails Tutorial** disponível em [Hotrails.dev](https://www.hotrails.dev/turbo-rails) :contentReference[oaicite:10]{index=10}.
+Baseado no **Turbo Rails Tutorial** disponível em [Hotrails.dev](https://www.hotrails.dev/turbo-rails).
 
 ---
