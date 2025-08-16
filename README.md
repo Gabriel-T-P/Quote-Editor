@@ -1,49 +1,68 @@
-# Projeto Turbo Rails — Editor de Cotações
+# Turbo Rails Project --- Quote Editor
 
-Este projeto é uma aplicação Ruby on Rails 7 que implementa um **editor de cotações (quote editor)** com funcionalidades reativas utilizando **Turbo Rails**, conforme apresentado no tutorial gratuito do Hotrails.
+This project is a Ruby on Rails 7 application that implements a **quote
+editor** with reactive features using **Turbo Rails**, as presented in
+the free Hotrails tutorial.
 
-## Sobre o Tutorial
+## About the Tutorial
 
-O tutorial **Turbo Rails** ensina como usar o `turbo-rails` (biblioteca incluída por padrão no Rails 7) para criar aplicações de página única (SPA-like), com pouca ou nenhuma necessidade de JavaScript personalizado.
+The **Turbo Rails** tutorial teaches how to use `turbo-rails` (a library
+included by default in Rails 7) to build single-page-like applications
+(SPA-like), with little to no custom JavaScript.
 
-O que é implementado:
+What is implemented:
 
-- Um controlador CRUD simples para o modelo `Quote`
-- Organização de CSS com metodologia BEM
-- **Turbo Drive** — acelera navegação interceptando cliques e submissões de formulários e transformando-os em requisições AJAX
-- **Turbo Frames** e **Turbo Streams** — para fragmentar páginas em componentes independentes e fornecer atualizações em tempo real com Action Cable
-- Flash messages animadas com Stimulus
-- Tratamento de estados vazios e mensagens de interface com Turbo
-- Funcionalidade de cálculo dinâmico do total da cotação quando itens são adicionados, atualizados ou removidos
+-   A simple CRUD controller for the `Quote` model\
+-   CSS organization with the BEM methodology\
+-   **Turbo Drive** --- speeds up navigation by intercepting clicks and
+    form submissions, turning them into AJAX requests\
+-   **Turbo Frames** and **Turbo Streams** --- to split pages into
+    independent components and provide real-time updates with Action
+    Cable\
+-   Flash messages with animations using Stimulus\
+-   Handling of empty states and UI messages with Turbo\
+-   Dynamic calculation of the quote total when items are added,
+    updated, or removed
 
-## Objetivo do Projeto
+## Project Goal
 
-Este projeto replica o tutorial **Turbo Rails** do Hotrails, implementando um editor de cotações totalmente funcional:
+This project replicates the **Turbo Rails** tutorial from Hotrails,
+implementing a fully functional quote editor:
 
-- Permite criar, editar e remover **quotes**, **datas** e **itens**.
-- Ao interagir com a aplicação (por exemplo, adicionar um item ou editar uma data), a interface se atualiza sem recarregar a página, graças ao uso de Turbo.
-- O total da cotação é atualizado dinamicamente conforme os itens são manipulados.
+-   Allows creating, editing, and deleting **quotes**, **dates**, and
+    **items**.\
+-   When interacting with the application (for example, adding an item
+    or editing a date), the interface updates without reloading the
+    page, thanks to Turbo.\
+-   The quote total is dynamically updated as items are managed.
 
-## Como Começar
+## Getting Started
 
-1. Clone este repositório.
-2. No Gemfile, certifique-se de usar a versão compatível do `turbo-rails`:
-    ```ruby
+1.  Clone this repository.\
+
+2.  In the Gemfile, make sure you are using the compatible version of
+    `turbo-rails`:
+
+    ``` ruby
     gem "turbo-rails", "~> 1.0"
     ```
-3. Execute:
-    ```bash
+
+3.  Run:
+
+    ``` bash
     bundle install
     bin/setup
     bin/dev
     ```
-   Isso vai instalar dependências, criar o banco de dados, executar migrações e iniciar o servidor com compilação automática de assets.
-4. Acesse `http://localhost:3000` e explore o editor de cotações.
 
----
+    This will install dependencies, create the database, run migrations,
+    and start the server with automatic asset compilation.\
 
-## Referência
+4.  Go to `http://localhost:3000` and explore the quote editor.
 
-Baseado no **Turbo Rails Tutorial** disponível em [Hotrails.dev](https://www.hotrails.dev/turbo-rails).
+------------------------------------------------------------------------
 
----
+## Reference
+
+Based on the **Turbo Rails Tutorial** available at
+[Hotrails.dev](https://www.hotrails.dev/turbo-rails).
