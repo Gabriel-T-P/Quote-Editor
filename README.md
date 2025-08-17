@@ -1,13 +1,13 @@
 # Turbo Rails Project --- Quote Editor
 
-This project is a Ruby on Rails 7 application that implements a **quote
+This project is a Ruby on Rails 8 application that implements a **quote
 editor** with reactive features using **Turbo Rails**, as presented in
 the free Hotrails tutorial.
 
 ## About the Tutorial
 
 The **Turbo Rails** tutorial teaches how to use `turbo-rails` (a library
-included by default in Rails 7) to build single-page-like applications
+included by default in Rails 8) to build single-page-like applications
 (SPA-like), with little to no custom JavaScript.
 
 What is implemented:
