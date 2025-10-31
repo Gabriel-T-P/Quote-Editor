@@ -43,7 +43,7 @@ gem "thruster", require: false
 # gem "image_processing", "~> 1.2"
 
 # Redis for Action Cable
-gem "redis", "~> 4.0"
+gem "redis", "~> 5.4"
 
 gem "devise"
 
